@@ -12,6 +12,7 @@
         <module>spring-dependency-injection</module>
         <module>spring-more-injecting</module>
         <module>spring-bean-scopes</module>
+        <module>spring-bean-life-cycle</module>
     </modules>
 
     <properties>
