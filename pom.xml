@@ -13,6 +13,7 @@
         <module>spring-more-injecting</module>
         <module>spring-bean-scopes</module>
         <module>spring-bean-life-cycle</module>
+        <module>spring-annotation-ioc</module>
     </modules>
 
     <properties>
