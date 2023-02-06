@@ -11,6 +11,7 @@
     <modules>
         <module>spring-dependency-injection</module>
         <module>spring-more-injecting</module>
+        <module>spring-bean-scopes</module>
     </modules>
 
     <properties>
