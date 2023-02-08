@@ -16,7 +16,7 @@
         <module>spring-annotation-ioc</module>
         <module>spring-annotation-dependency-injection</module>
         <module>spring-annotation-bean-scopes-life-cycle</module>
-        <module>spring-javacode-config-ioc</module>
+        <module>spring-javacode-config-ioc-di</module>
     </modules>
 
     <properties>

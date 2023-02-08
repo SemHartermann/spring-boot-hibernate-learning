@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-javacode-config-ioc</artifactId>
+    <artifactId>spring-javacode-config-ioc-di</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
