@@ -15,7 +15,8 @@
         <module>spring-bean-life-cycle</module>
         <module>spring-annotation-ioc</module>
         <module>spring-annotation-dependency-injection</module>
-        <module>spring-annotation-bean-scopes</module>
+        <module>spring-annotation-bean-scopes-life-cycle</module>
+        <module>spring-javacode-config-ioc</module>
     </modules>
 
     <properties>
@@ -27,6 +28,12 @@
 
 
     <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.20</version>
+            <scope>provided</scope>
+        </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
