@@ -17,6 +17,7 @@
         <module>spring-annotation-dependency-injection</module>
         <module>spring-annotation-bean-scopes-life-cycle</module>
         <module>spring-javacode-config-ioc-di</module>
+        <module>spring-mvc-config</module>
     </modules>
 
     <properties>
@@ -42,6 +43,16 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
+            <version>${org.springframework.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>${org.springframework.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
             <version>${org.springframework.version}</version>
         </dependency>
         <dependency>
