@@ -9,10 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-mvc-config</artifactId>
+    <artifactId>spring-mvc-demo</artifactId>
     <packaging>war</packaging>
 
-    <name>spring-mvc-config Maven Webapp</name>
+    <name>spring-mvc-demo Maven Webapp</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
@@ -32,7 +32,7 @@
     </dependencies>
 
     <build>
-        <finalName>spring-mvc-config</finalName>
+        <finalName>spring-mvc-demo</finalName>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
                 <plugin>
