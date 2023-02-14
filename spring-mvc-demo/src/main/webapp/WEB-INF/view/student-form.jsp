@@ -13,33 +13,39 @@
 </head>
 <body>
 
-    <form:form action="processForm" modelAttribute="student">
+<form:form action="processForm" modelAttribute="student">
 
-        First name: <form:input path="firstName"/>
-        <br>
-        <br>
+    First name: <form:input path="firstName"/>
+    <br>
+    <br>
 
-        Last name: <form:input path="lastName"/>
-        <br>
-        <br>
-        
-        <input type="submit" value="Submit"/>
+    Last name: <form:input path="lastName"/>
+    <br>
+    <br>
 
-        <%--<br>
-        <br>
+    Country:
+    <form:select path="country">
+        <form:options items="${theCountryOptions}"/>
 
-        Country:
-        <form:select path="country">
-            <form:option value="Brazil" label="Brazil"/>
-            <form:option value="France" label=""/>
-            <form:option value="" label=""/>
-            <form:option value="" label=""/>
-        </form:select>
+    </form:select>
 
-        <br>
-        <br>--%>
-        
-    </form:form>
+    <br>
+    <br>
+
+    Favorite Language:
+
+    <form:radiobuttons path="favoriteLanguage" items="${theFavoriteLanguagesOptions}" />
+
+    <br><br>
+    
+    Operating System:
+    
+    <form:checkbox path="operatingSystems" value="Linux"/> Linux
+    <form:checkbox path="operatingSystems" value="Windows"/> Windows
+    <form:checkbox path="operatingSystems" value="MacOS"/> MacOS
+    <input type="submit" value="Submit"/>
+
+</form:form>
 
 
 </body>
