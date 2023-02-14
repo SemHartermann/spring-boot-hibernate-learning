@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/student")
 public class StudentController {
 
+    @RequestMapping("/showForm")
     public String showForm(Model theModel) {
         // create a student object
         Student theStudent = new Student();
