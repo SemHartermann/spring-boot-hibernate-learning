@@ -30,6 +30,16 @@
 
         <br><br>
 
+        FreePasses: <form:input path="freePasses" />
+        <form:errors path="freePasses" cssClass="ui-state-error"/>
+
+        <br><br>
+
+        Postal Code: <form:input path="postalCode"/>
+        <form:errors path="postalCode" cssClass="ui-state-error"/>
+
+        <br><br>
+
         <input type="submit" value="Submit">
 
     </form:form>
