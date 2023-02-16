@@ -18,6 +18,7 @@
         <module>spring-annotation-bean-scopes-life-cycle</module>
         <module>spring-javacode-config-ioc-di</module>
         <module>spring-mvc-demo</module>
+        <module>hibernate-tutorial</module>
     </modules>
 
     <properties>
@@ -25,6 +26,10 @@
         <maven.compiler.target>17</maven.compiler.target>
         <org.springframework.version>5.3.9</org.springframework.version>
         <spring.core>5.3.9</spring.core>
+        <hibernate.core.version>5.6.15.Final</hibernate.core.version>
+        <mysql.connector.version>8.0.29</mysql.connector.version>
+        <hibernate.jpa.version>1.0.2.Final</hibernate.jpa.version>
+
     </properties>
 
 
@@ -70,7 +75,22 @@
             <artifactId>hibernate-validator</artifactId>
             <version>6.2.0.Final</version>
         </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.connector.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>${hibernate.core.version}</version>
+        </dependency>
 
+        <dependency>
+            <groupId>org.hibernate.javax.persistence</groupId>
+            <artifactId>hibernate-jpa-2.1-api</artifactId>
+            <version>${hibernate.jpa.version}</version>
+        </dependency>
     </dependencies>
 
 </project>
