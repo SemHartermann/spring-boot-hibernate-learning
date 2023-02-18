@@ -5,7 +5,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-public class CreateStudentDemo {
+public class ReadStudentDemo {
 
     public static void main(String[] args) {
 
@@ -23,7 +23,7 @@ public class CreateStudentDemo {
 
             session.beginTransaction();
 
-            System.out.println("Saving the student");
+            System.out.println("\n ");
             session.save(tempStudent);
 
             session.getTransaction().commit();
