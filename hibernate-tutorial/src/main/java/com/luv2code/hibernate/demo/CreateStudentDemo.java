@@ -26,6 +26,7 @@ public class CreateStudentDemo {
             System.out.println("Saving the student");
             session.save(tempStudent);
 
+
             session.getTransaction().commit();
 
             System.out.println("Done!");
