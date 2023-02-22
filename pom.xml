@@ -20,6 +20,7 @@
         <module>spring-mvc-demo</module>
         <module>hibernate-tutorial</module>
         <module>hibarnate-one-to-one</module>
+        <module>hb-one-to-one-uni</module>
     </modules>
 
     <properties>
