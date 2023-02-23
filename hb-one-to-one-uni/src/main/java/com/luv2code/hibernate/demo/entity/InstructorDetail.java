@@ -1,11 +1,6 @@
 package com.luv2code.hibernate.demo.entity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name="instructor_detail")
@@ -22,6 +17,9 @@ public class InstructorDetail {
 	// generate getter/setter methods
 	
 	// generate toString() method
+
+	@OneToOne(mappedBy = "InstructorDetail", cascade = CascadeType.ALL)
+	private Instructor instructor;
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
@@ -49,6 +47,14 @@ public class InstructorDetail {
 
 	public void setId(int id) {
 		this.id = id;
+	}
+
+	public Instructor getInstructor() {
+		return instructor;
+	}
+
+	public void setInstructor(Instructor instructor) {
+		this.instructor = instructor;
 	}
 
 	public String getYoutubeChannel() {
