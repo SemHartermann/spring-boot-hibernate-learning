@@ -19,8 +19,8 @@
         <module>spring-javacode-config-ioc-di</module>
         <module>spring-mvc-demo</module>
         <module>hibernate-tutorial</module>
-        <module>hibarnate-one-to-one</module>
         <module>hb-one-to-one-uni</module>
+        <module>hb-one-to-many</module>
     </modules>
 
     <properties>
