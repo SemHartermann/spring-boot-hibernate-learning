@@ -21,6 +21,7 @@
         <module>hibernate-tutorial</module>
         <module>hb-one-to-one-uni</module>
         <module>hb-one-to-many</module>
+        <module>hb-eager-vs-lazy-demo</module>
     </modules>
 
     <properties>
