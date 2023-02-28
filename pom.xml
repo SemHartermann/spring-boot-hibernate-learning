@@ -24,6 +24,7 @@
         <module>hb-eager-vs-lazy-demo</module>
         <module>hb-one-to-many-uni</module>
         <module>hb-many-to-many</module>
+        <module>web-customer-tracker</module>
     </modules>
 
     <properties>
@@ -40,6 +41,12 @@
 
     <dependencies>
         <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jsp-api</artifactId>
+            <version>2.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.20</version>
@@ -49,6 +56,11 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
             <version>${spring.core}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-orm</artifactId>
+            <version>${org.springframework.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
@@ -81,6 +93,11 @@
             <version>6.2.0.Final</version>
         </dependency>
         <dependency>
+            <groupId>c3p0</groupId>
+            <artifactId>c3p0</artifactId>
+            <version>0.9.1.2</version>
+        </dependency>
+        <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql.connector.version}</version>
@@ -90,7 +107,6 @@
             <artifactId>hibernate-core</artifactId>
             <version>${hibernate.core.version}</version>
         </dependency>
-
         <dependency>
             <groupId>org.hibernate.javax.persistence</groupId>
             <artifactId>hibernate-jpa-2.1-api</artifactId>
