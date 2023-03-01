@@ -6,6 +6,7 @@ public class Test {
         CustomerDAO customer = new CustomerDAOImpl();
 
         System.out.println(customer.getCustomers());
+
     }
 
 }
