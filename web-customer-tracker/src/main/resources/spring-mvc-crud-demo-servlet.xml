@@ -17,6 +17,9 @@
     <!-- Add support for component scanning -->
     <context:component-scan base-package="com.luv2code.springdemo" />
 
+    <!-- Css and others resources-->
+    <mvc:resources mapping="/static/**" location="/static/"/>
+
     <!-- Add support for conversion, formatting and validation support -->
     <mvc:annotation-driven/>
 
