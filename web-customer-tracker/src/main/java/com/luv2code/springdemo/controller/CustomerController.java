@@ -19,16 +19,6 @@ public class CustomerController {
     @Autowired
     private CustomerService customerService;
 
-    @GetMapping("/list")
-    public String listCustomer(Model theModel){
-
-        List<Customer> theCustomers = customerService.getCustomers();
-
-        theModel.addAttribute("customers", theCustomers);
-
-        return "list-customers";
-
-    }
 
     @GetMapping("/showFormAdd")
     public String showFormAdd(Model theModel){
