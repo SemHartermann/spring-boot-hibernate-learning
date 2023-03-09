@@ -25,6 +25,7 @@
         <module>hb-one-to-many-uni</module>
         <module>hb-many-to-many</module>
         <module>web-customer-tracker</module>
+        <module>spring-demo-aop</module>
     </modules>
 
     <properties>
