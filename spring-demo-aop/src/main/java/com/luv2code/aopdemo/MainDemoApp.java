@@ -13,12 +13,15 @@ public class MainDemoApp {
 
         Account account = new Account();
 
-        account.setName("Kostya");
-
-        account.setLevel("Admin");
 
         accountDAO.addAccount(account, true);
         accountDAO.doWork();
+
+        accountDAO.setName("Kostya");
+        accountDAO.setServiceCode("silver");
+
+        String name = accountDAO.getName();
+        String code = accountDAO.getServiceCode();
 
         MembershipDAO membershipDAO = context.getBean("membershipDAO", MembershipDAO.class);
 

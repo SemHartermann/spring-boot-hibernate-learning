@@ -1,5 +1,8 @@
 package com.luv2code.aopdemo;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Account {
 
     private String name;
