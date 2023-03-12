@@ -3,6 +3,9 @@ package com.luv2code.aopdemo.dao;
 import com.luv2code.aopdemo.Account;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Component
 public class AccountDAO {
 
@@ -11,6 +14,22 @@ public class AccountDAO {
     private String level;
 
     private String ServiceCode;
+
+    public List<Account> findAccounts(){
+
+        List<Account> myAccounts = new ArrayList();
+
+        Account account1 = new Account("Sem","User");
+        Account account2 = new Account("Kostya","Moder");
+        Account account3 = new Account("Egor","Admin");
+
+        myAccounts.add(account1);
+        myAccounts.add(account2);
+        myAccounts.add(account3);
+
+        return myAccounts;
+
+    }
 
     public void addAccount(Account account, boolean vipFlag){
 
