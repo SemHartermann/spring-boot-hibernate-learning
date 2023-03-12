@@ -12,7 +12,8 @@ public class MainDemoApp {
         AccountDAO accountDAO = context.getBean("accountDAO", AccountDAO.class);
 
         Account account = new Account();
-
+        account.setName("Kostya");
+        account.setLevel("AdMAN");
 
         accountDAO.addAccount(account, true);
         accountDAO.doWork();
