@@ -15,7 +15,11 @@ public class AccountDAO {
 
     private String ServiceCode;
 
-    public List<Account> findAccounts(){
+    public List<Account> findAccounts(boolean tripWire) throws Exception {
+
+        if (tripWire){
+            throw new Exception("triggered the Exception");
+        }
 
         List<Account> myAccounts = new ArrayList();
 

@@ -5,19 +5,26 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 import java.util.List;
 
-public class MainDemoApp {
+public class AfterThrowingDemoApp {
 
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(DemoConfig.class);
 
         AccountDAO accountDAO = context.getBean("accountDAO", AccountDAO.class);
 
+        List<Account> accounts = null;
 
-
-        System.out.println("\nMain Programm: " + accountDAO.getClass());
+        try{
+            boolean tripWire = true;
+            accounts = accountDAO.findAccounts(tripWire);
+        }catch (Exception exc){
+            System.out.println("\nMain Programm: " + exc);
+        }
+        System.out.println("\nMain Programm: " + AfterThrowingDemoApp.class);
 
         System.out.println("------------------");
 
+        System.out.println(accounts + "\n");
 
         context.close();
     }
