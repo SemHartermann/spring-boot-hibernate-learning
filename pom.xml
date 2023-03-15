@@ -28,6 +28,8 @@
         <module>spring-demo-aop</module>
         <module>web-customer-tracker-aop</module>
         <module>spring-boot-devtools</module>
+        <module>spring-boot-actuator</module>
+        <module>spring-boot-actuator-security</module>
     </modules>
 
     <properties>
