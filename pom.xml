@@ -27,7 +27,7 @@
         <module>web-customer-tracker</module>
         <module>spring-demo-aop</module>
         <module>web-customer-tracker-aop</module>
-        <module>mycoolapp</module>
+        <module>spring-boot-devtools</module>
     </modules>
 
     <properties>
