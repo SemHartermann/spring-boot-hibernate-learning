@@ -30,6 +30,8 @@
         <module>spring-boot-devtools</module>
         <module>spring-boot-actuator</module>
         <module>spring-boot-actuator-security</module>
+        <module>command-line-demo</module>
+        <module>spring-boot-properties</module>
     </modules>
 
     <properties>
