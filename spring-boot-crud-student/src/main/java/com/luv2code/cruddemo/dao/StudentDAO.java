@@ -14,4 +14,8 @@ public interface StudentDAO {
 
     void update(Object obj);
 
+    void deleteById(int id);
+
+    int deleteAll();
+
 }
