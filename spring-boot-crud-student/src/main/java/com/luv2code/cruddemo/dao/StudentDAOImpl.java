@@ -45,6 +45,11 @@ public class StudentDAOImpl implements StudentDAO {
         return query.getResultList();
     }
 
+    @Override
+    public void update(Object obj) {
+        entityManager.merge(obj);
+    }
+
     public static int resolve(int[] array, int arraySize) {
         for (int i = 1; i < arraySize-1; i++) {
             if (array[i-1]==0 && array[i+1]==0) return  i;
