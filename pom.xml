@@ -33,6 +33,7 @@
         <module>command-line-demo</module>
         <module>spring-boot-properties</module>
         <module>spring-boot-crud-student</module>
+        <module>spring-boot-rest-crud</module>
     </modules>
 
     <properties>
