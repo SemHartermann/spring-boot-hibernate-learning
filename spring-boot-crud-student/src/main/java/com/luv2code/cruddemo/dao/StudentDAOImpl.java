@@ -15,7 +15,6 @@ import java.util.List;
 @Repository
 public class StudentDAOImpl implements StudentDAO {
 
-
     private EntityManager entityManager;
 
     public StudentDAOImpl(EntityManager entityManager) {
