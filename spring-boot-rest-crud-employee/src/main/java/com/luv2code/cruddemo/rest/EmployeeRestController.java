@@ -45,5 +45,26 @@ public class EmployeeRestController {
 
     }
 
+    @PutMapping
+    public Employee updateEmployee(@RequestBody Employee employee){
+
+        Employee dbEmployee = employeeService.save(employee);
+
+        return dbEmployee;
+    }
+
+    @DeleteMapping("/{employeeId}")
+    public String deleteEmployee(@PathVariable int employeeId){
+
+        Employee employee = employeeService.findById(employeeId);
+
+        if(employee == null){
+            throw new RuntimeException("Employee id not found - " + employeeId);
+        }
+
+        employeeService.deleteById(employeeId);
+
+        return "Deleting employee with id - " + employeeId;
+    }
 
 }
