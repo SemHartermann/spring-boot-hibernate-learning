@@ -39,6 +39,7 @@
         <module>spring-boot-rest-crud-spring-data-rest</module>
         <module>spring-boot-rest-security-employee</module>
         <module>thymeleafdemo-helloworld</module>
+        <module>thymeleaf-demo-employees-list</module>
 
     </modules>
 
