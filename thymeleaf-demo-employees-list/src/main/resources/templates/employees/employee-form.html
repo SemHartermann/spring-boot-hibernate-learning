@@ -23,6 +23,8 @@
     <form action="#" th:action="@{/employees/save}"
                      th:object="${employee}" method="post">
 
+      <input type="hidden" th:field="*{id}">
+
       <input type="text" th:field="*{firstName}"
               class="form-control mb-4 w-25" placeholder="First name">
 
