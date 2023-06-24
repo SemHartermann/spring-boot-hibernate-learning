@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="hibernate" url="file://$PROJECT_DIR$/hb-eager-vs-lazy-demo/src/main/resources/hibernate.cfg.xml" />
+    <file type="hibernate" url="file://$PROJECT_DIR$/hb-many-to-many/src/main/resources/hibernate.cfg.xml" />
+    <file type="hibernate" url="file://$PROJECT_DIR$/hb-one-to-many-uni/src/main/resources/hibernate.cfg.xml" />
+    <file type="hibernate" url="file://$PROJECT_DIR$/hb-one-to-many/src/main/resources/hibernate.cfg.xml" />
+    <file type="hibernate" url="file://$PROJECT_DIR$/hb-one-to-one-uni/src/main/resources/hibernate.cfg.xml" />
+    <file type="hibernate" url="file://$PROJECT_DIR$/hibernate-tutorial/src/main/resources/hibernate.cfg.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/hb-eager-vs-lazy-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/hb-many-to-many" />
+    <file type="web" url="file://$PROJECT_DIR$/hb-one-to-many" />
+    <file type="web" url="file://$PROJECT_DIR$/hb-one-to-many-uni" />
+    <file type="web" url="file://$PROJECT_DIR$/hb-one-to-one-uni" />
+    <file type="web" url="file://$PROJECT_DIR$/hibarnate-one-to-one-uni" />
+    <file type="web" url="file://$PROJECT_DIR$/hibernate-tutorial" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-demo-aop" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/web-customer-tracker" />
+    <file type="web" url="file://$PROJECT_DIR$/web-customer-tracker-aop" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/spring-demo-one/pom.xml" />
+        <option value="$PROJECT_DIR$/01-spring-core/spring-demo-one/pom.xml" />
+        <option value="$PROJECT_DIR$/01-spring-core/spring-ioc/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-ioc/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-annotation-bean-scopes-life-cycle/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-rest-security-employee/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/mycoolapp/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-rest-crud-spring-data-rest/spring-boot-rest-crud-spring-data-rest/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-sring-mvc-crud/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-mvc-config/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-mvc-security/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

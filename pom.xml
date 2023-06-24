@@ -40,14 +40,15 @@
         <module>spring-boot-rest-security-employee</module>
         <module>thymeleafdemo-helloworld</module>
         <module>thymeleaf-demo-employees-list</module>
+        <module>spring-boot-mvc-security</module>
 
     </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <org.springframework.version>5.3.9</org.springframework.version>
-        <spring.core>5.3.9</spring.core>
+        <org.springframework.version>6.0.10</org.springframework.version>
+        <spring.core>6.0.10</spring.core>
         <hibernate.core.version>5.6.15.Final</hibernate.core.version>
         <mysql.connector.version>8.0.29</mysql.connector.version>
         <hibernate.jpa.version>1.0.2.Final</hibernate.jpa.version>

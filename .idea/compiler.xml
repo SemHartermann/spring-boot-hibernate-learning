@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="thymeleafdemo-helloworld" />
+        <module name="spring-bean-scopes" />
+        <module name="hb-one-to-many-uni" />
+        <module name="hb-one-to-many" />
+        <module name="spring-bean-life-cycle" />
+        <module name="spring-mvc-demo" />
+        <module name="spring-boot-rest-crud-employee" />
+        <module name="web-customer-tracker" />
+        <module name="web-customer-tracker-aop" />
+        <module name="spring-boot-rest-crud-spring-data-jpa" />
+        <module name="spring-annotation-bean-scopes-life-cycle" />
+        <module name="spring-boot-rest-security-employee" />
+        <module name="spring-boot-actuator" />
+        <module name="hb-one-to-one-uni" />
+        <module name="spring-javacode-config-ioc-di" />
+        <module name="spring-boot-devtools" />
+        <module name="spring-annotation-ioc" />
+        <module name="spring-boot-actuator-security" />
+        <module name="spring-more-injecting" />
+        <module name="spring-annotation-dependency-injection" />
+        <module name="spring-boot-crud-student" />
+        <module name="hb-eager-vs-lazy-demo" />
+        <module name="spring-ioc" />
+        <module name="spring-boot-rest-crud" />
+        <module name="spring-boot-rest-crud-spring-data-rest" />
+        <module name="spring-boot-mvc-security" />
+        <module name="hibernate-tutorial" />
+        <module name="spring-dependency-injection" />
+        <module name="thymeleaf-demo-employees-list" />
+        <module name="command-line-demo" />
+        <module name="hb-many-to-many" />
+        <module name="spring-boot-properties" />
+        <module name="spring-demo-aop" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hibarnate-one-to-one" target="1.7" />
+      <module name="hibarnate-one-to-one-uni" target="1.7" />
+      <module name="mycoolapp" target="17" />
+      <module name="spring-annotation-bean-scopes-and-life-cycle" target="17" />
+      <module name="spring-boot-crud-demo-student" target="17" />
+      <module name="spring-boot-sring-mvc-crud" target="17" />
+      <module name="spring-demo-one" target="17" />
+      <module name="spring-javacode-config-ioc" target="17" />
+      <module name="spring-mvc-config" target="17" />
+      <module name="spring-mvc-security" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="command-line-demo" options="-parameters" />
+      <module name="hb-eager-vs-lazy-demo" options="" />
+      <module name="hb-many-to-many" options="" />
+      <module name="hb-one-to-many" options="" />
+      <module name="hb-one-to-many-uni" options="" />
+      <module name="hibernate-tutorial" options="" />
+      <module name="mycoolapp" options="-parameters" />
+      <module name="spring-annotation-bean-scopes-life-cycle" options="" />
+      <module name="spring-annotation-dependency-injection" options="" />
+      <module name="spring-annotation-ioc" options="" />
+      <module name="spring-bean-life-cycle" options="" />
+      <module name="spring-bean-scopes" options="" />
+      <module name="spring-boot-actuator" options="-parameters" />
+      <module name="spring-boot-actuator-security" options="-parameters" />
+      <module name="spring-boot-crud-student" options="-parameters" />
+      <module name="spring-boot-devtools" options="-parameters" />
+      <module name="spring-boot-mvc-security" options="-parameters" />
+      <module name="spring-boot-properties" options="-parameters" />
+      <module name="spring-boot-rest-crud" options="-parameters" />
+      <module name="spring-boot-rest-crud-employee" options="-parameters" />
+      <module name="spring-boot-rest-crud-spring-data-jpa" options="-parameters" />
+      <module name="spring-boot-rest-crud-spring-data-rest" options="-parameters" />
+      <module name="spring-boot-rest-security-employee" options="-parameters" />
+      <module name="spring-demo-aop" options="" />
+      <module name="spring-dependency-injection" options="" />
+      <module name="spring-ioc" options="" />
+      <module name="spring-javacode-config-ioc-di" options="" />
+      <module name="spring-more-injecting" options="" />
+      <module name="spring-mvc-demo" options="" />
+      <module name="spring-mvc-security" options="-parameters" />
+      <module name="thymeleaf-demo-employees-list" options="-parameters" />
+      <module name="thymeleafdemo-helloworld" options="-parameters" />
+      <module name="web-customer-tracker" options="" />
+      <module name="web-customer-tracker-aop" options="" />
+    </option>
+  </component>
+</project>

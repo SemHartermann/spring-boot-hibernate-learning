@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.luv2code.springboot</groupId>
-	<artifactId>spring-boot-rest-security-employee</artifactId>
+	<artifactId>spring-boot-mvc-security</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-rest-security-employee</name>
+	<name>spring-boot-mvc-security</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
