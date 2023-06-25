@@ -11,4 +11,5 @@ public class LoginController {
         return "fancy-login";
     }
 
+
 }
